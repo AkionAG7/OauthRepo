@@ -10,11 +10,11 @@ var cons = require("consolidate");
 var path = require("path");
 let app = express();
 
-const dotenv = require("dotenv");
-const dotenvResult = dotenv.config();
-if (dotenvResult.error) {
-  throw new Error(`Failed to load .env file: ${dotenvResult.error.message}`);
-}
+// const dotenv = require("dotenv");
+// const dotenvResult = dotenv.config();
+// if (dotenvResult.error) {
+//   throw new Error(`Failed to load .env file: ${dotenvResult.error.message}`);
+// }
 
 //  Esto se los dará Okta.
 const config = {
